@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jota Curityba - Software Development</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #2c3e50;
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+            max-width: 600px;
+            margin: 20px;
+        }
+
+        .logo-placeholder {
+            font-size: 3rem;
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            color: #34495e;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .contact a:hover {
+            color: #2980b9;
+        }
+
+        .progress-bar {
+            width: 200px;
+            height: 6px;
+            background: #e0e0e0;
+            border-radius: 3px;
+            margin: 2rem auto;
+            overflow: hidden;
+        }
+
+        .progress {
+            width: 30%;
+            height: 100%;
+            background: #3498db;
+            animation: progress 2s ease-in-out infinite;
+        }
+
+        @keyframes progress {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(400%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-placeholder">
+            <i class="fas fa-code"></i>
+        </div>
+        <h1>Site em Construção</h1>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <p>Estamos trabalhando para trazer uma experiência incrível em desenvolvimento de software para você.</p>
+        <p>Em breve, apresentaremos nossas soluções inovadoras e tecnologias de ponta.</p>
+        <div class="contact">
+            <a href="mailto:contato@seudominio.com" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://linkedin.com/company/sua-empresa" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="tel:+5500000000000" title="Telefone">
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
